@@ -46,9 +46,6 @@ func rollUp(s string) string {
 }
 
 func main() {
-	w1 := "bcadaabddd"
-	w2 := SortString(w1)
-	fmt.Println(w1)
-	fmt.Println(w2)
-	fmt.Println(rollUp(w1))
+	s1 := "bcadaabddd"
+	fmt.Println(rollUp(s1))
 }
